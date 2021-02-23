@@ -6,3 +6,14 @@
 
 @import "./player";
 @import "./song";
+@import "./library";
+
+body {
+	font-family: "Lato", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+	color: rgb(54, 54, 54);
+}
