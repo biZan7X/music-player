@@ -12,6 +12,9 @@
 	h2 {
 		padding: 2rem;
 	}
+	transform: translateX(-100%);
+	transition: all 0.5s ease;
+	opacity: 0;
 }
 
 .library-song {
@@ -55,4 +58,13 @@
 	background-color: rgba(155, 155, 155, 0.7);
 	border-radius: 20px;
 	border: transparent;
+}
+
+.selected-song {
+	background: rgb(194, 208, 253);
+}
+
+.active-library {
+	transform: translateX(0%);
+	opacity: 1;
 }
